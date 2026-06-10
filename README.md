@@ -1,65 +1,93 @@
-Mutual Fund Analytics Capstone Project
+# Mutual Fund Analytics Capstone Project
 
-Project Overview
+## Overview
 
-This project analyzes Indian Mutual Fund data using Python, SQL, and Power BI. The objective is to perform data cleaning, exploratory data analysis (EDA), database modeling, and dashboard creation for fund performance insights.
+This project analyzes mutual fund performance, investor behavior, benchmark comparison, and portfolio risk using Python, SQLite, and Power BI. The project follows a complete analytics pipeline from data extraction to dashboard visualization.
 
-Tech Stack
+## Technologies Used
 
-- Python (Pandas, NumPy, Plotly)
-- SQL (SQLite)
-- Power BI
-- Git & GitHub
+* Python
+* Pandas
+* NumPy
+* SQLite
+* Matplotlib
+* Power BI
 
-Project Structure
+## Project Modules
 
-data/
+### 1. ETL Pipeline
 
-- raw/
-- processed/
-- db/
+* Data extraction from CSV files
+* Data cleaning and transformation
+* Loading into SQLite database
 
-dashboard/
+### 2. Exploratory Data Analysis (EDA)
 
-- Power BI Dashboard (.pbix)
+* Age Group Distribution
+* Gender Distribution
+* Income Analysis
+* State-wise Investments
+* Transaction Type Analysis
 
-reports/
+### 3. Performance Analytics
 
-- Data Dictionary
-- EDA Outputs
+* CAGR
+* Sharpe Ratio
+* Sortino Ratio
+* Alpha
+* Beta
+* Maximum Drawdown
 
-scripts/
+### 4. Investor Analytics
 
-- data_ingestion.py
-- amfi_validation.py
-- explore_fund_master.py
-- live_nav_ftech.py
+* Demographic Analysis
+* City Tier Analysis
+* SIP vs Lumpsum Analysis
+* State-wise Investment Patterns
 
-sql/
+### 5. Benchmark Comparison
 
-- schema.sql
-- queries.sql
+* NIFTY 50 Comparison
+* NIFTY 100 Comparison
+* Tracking Error Analysis
+* Normalized Return Analysis
 
-Key Analysis
+### 6. Advanced Analytics
 
-- NAV Trend Analysis
-- AUM Growth Analysis
-- SIP Inflow Trends
-- Category-wise Fund Analysis
-- Benchmark Comparison
-- Portfolio Holdings Analysis
+* Historical VaR (95%)
+* Conditional VaR (CVaR)
+* Rolling 90-Day Sharpe Ratio
+* Volatility Analysis
+* Investor Cohort Analysis
+* SIP Continuity Analysis
+* Fund Recommendation System
 
-Database
+### 7. Interactive Dashboard
 
-SQLite database created using schema defined in "schema.sql".
+* Industry Overview
+* Fund Performance
+* Investor Insights
+* Risk Analytics
 
-Dashboard Pages
+## Deliverables
 
-1. Fund Performance
-2. AUM Analysis
-3. SIP Trends
-4. Portfolio & Benchmark Analysis
+* Power BI Dashboard (.pbix)
+* Final Report (PDF)
+* Presentation (PPTX)
+* Benchmark Comparison Charts
+* Rolling Sharpe Analysis
+* VaR/CVaR Report
+* Fund Scorecard
 
-Author
+## Project Structure
 
-Bhavya Sri
+* notebooks/ → Analysis notebooks
+* dashboard/ → Power BI dashboard
+* outputs/ → CSV files and charts
+* docs/ → Report and presentation
+
+## Author
+
+Bhavya Sri Rokkala
+
+Bluestock Fintech Capstone Project
